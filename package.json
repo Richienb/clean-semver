@@ -1,6 +1,6 @@
 {
     "name": "clean-semver",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Clean a semver-compatible version.",
     "repository": "https://github.com/Richienb/clean-semver.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
