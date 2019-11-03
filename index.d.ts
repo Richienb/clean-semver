@@ -1,14 +1,14 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * Clean a semver-compatible version.
+ * @param version The version to clean.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const cleanSemver = require("clean-semver");
+ *
+ * cleanSemver(" v1.0aaa    -");
+ * //=> '1.0.0'
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare function cleanSemver(version: string): string;
 
-export = theModule;
+export = cleanSemver;

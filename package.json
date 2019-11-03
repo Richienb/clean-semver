@@ -1,8 +1,8 @@
 {
-    "name": "the-module",
+    "name": "clean-semver",
     "version": "0.0.0",
-    "description": "My awesome module.",
-    "repository": "https://github.com/Richienb/the-module.git",
+    "description": "Clean a semver-compatible version.",
+    "repository": "https://github.com/Richienb/clean-semver.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
     "license": "MIT",
     "main": "index.js",
@@ -11,14 +11,20 @@
         "index.d.ts"
     ],
     "engines": {
-        "node": ">=8"
+        "node": ">=4"
     },
     "scripts": {
         "lint": "eslint .",
         "test": "yarn lint && ava"
     },
-    "keywords": [],
-    "dependencies": {},
+    "keywords": [
+        "semver",
+        "clean",
+        "version"
+    ],
+    "dependencies": {
+        "semver": "^6.3.0"
+    },
     "devDependencies": {
         "ava": "^2.1.0",
         "eslint": "^6.6.0",

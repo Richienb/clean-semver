@@ -1,41 +1,30 @@
-# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# Clean semver [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/clean-semver/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/clean-semver)
 
-My awesome module.
+Clean a semver-compatible version.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/clean-semver.png)](https://npmjs.com/package/clean-semver)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install clean-semver
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const cleanSemver = require("clean-semver");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+cleanSemver(" v1.0aaa    -");
+//=> '1.0.0'
 ```
 
 ## API
 
-### theModule(input, options?)
+### cleanSemver(version)
 
-#### input
+#### version
 
 Type: `string`
 
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+The version to clean.
