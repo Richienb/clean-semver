@@ -23,7 +23,7 @@
         "version"
     ],
     "dependencies": {
-        "semver": "^6.3.0"
+        "semver": "^7.0.0"
     },
     "devDependencies": {
         "ava": "^2.1.0",
