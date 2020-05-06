@@ -9,6 +9,6 @@
  * //=> '1.0.0'
  * ```
 */
-declare function cleanSemver(version: string): string;
+declare function cleanSemver(version: string): string
 
-export = cleanSemver;
+export = cleanSemver
