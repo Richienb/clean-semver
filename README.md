@@ -1,4 +1,4 @@
-# Clean semver [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/clean-semver/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/clean-semver)
+# clean-semver [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/clean-semver/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/clean-semver)
 
 Clean a semver-compatible version.
 
